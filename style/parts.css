@@ -1,0 +1,61 @@
+.fittlist{
+    width: 1190px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.fittlist h1{
+    line-height: 32px;
+    font-size: 18px;
+    color: #333333;
+}
+.fittlist h1 .cut{
+    color:red;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.partcont{
+    width: 1190px;
+    height: 220px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.partlist{
+    width: 2142px;
+    position: absolute;
+    left: 0px;
+}
+.partlist .part{
+    height: 218px;
+    width: 216px;
+    border: 1px solid #ddd;
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+}
+.part_pic a{
+    text-align: center;
+}
+.part_pic a img{
+    width: 150px;
+    height: 150px;
+    border: 0;
+    margin: 0 auto;
+    vertical-align: middle; 
+}
+.part_name{
+    height: 42px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.part_pice{
+    font-size: 14px;
+    color: #dd2434;
+    float: none;
+    margin-right: 0;
+    height: auto;
+    cursor: pointer;
+    float: left;
+}

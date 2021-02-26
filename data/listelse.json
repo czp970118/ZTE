@@ -1,0 +1,49 @@
+[{
+        "id": "07",
+        "image_src": "https://image.ztemall.com/dd566d7db703a8caec60ae3056a6fc36.jpg",
+        "text": "ZTE WATCH Live 智能手表",
+        "desc": "21天持久续航、全天心率检测",
+        "price": "￥249.00",
+        "flag":"yes"
+    },
+    {
+        "id": "08",
+        "image_src": "https://image.ztemall.com/b0e2816146db73c3fa5752646043efdd.png",
+        "text": "ZTE LiveBuds 真无线蓝牙耳机",
+        "desc": "闻声如面，真无线蓝牙耳机",
+        "price": "￥199.00",
+        "flag":"no"
+    },
+    {
+        "id": "09",
+        "image_src": "https://image.ztemall.com/f8811cb73a8e3ab91dec836fa0f6bc90.jpg",
+        "text": "4G室内无线路由器",
+        "desc": "随插随用 畅想无限",
+        "price": "￥279.00",
+        "flag":"yes"
+    },
+    {
+        "id": "010",
+        "image_src": "https://image.ztemall.com/bebc6046529e2e10439f85a882867dd7.png",
+        "text": "努比亚 VR全景相机 黑色",
+        "desc": "随插随用 快捷分享 360°全景记录生活此商..",
+        "price": "￥169.00",
+        "flag":"no"
+    },
+    {
+        "id": "011",
+        "image_src": "https://image.ztemall.com/a8b95072d1f9625e5844fab540a935d2.png",
+        "text": "nubia watch",
+        "desc": "刚柔并济，表现不凡",
+        "price": "￥999.00",
+        "flag":"no"
+    },
+    {
+        "id": "012",
+        "image_src": "https://image.ztemall.com/bc3b6fad05b0282a91be907986fb8fdd.png",
+        "text": "ZTE 65W GaN(氮化镓)超级快充",
+        "desc": "小巧便捷，快无止境",
+        "price": "￥139.00",
+        "flag":"yes"
+    }
+]

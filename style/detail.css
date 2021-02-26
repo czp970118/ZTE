@@ -1,0 +1,446 @@
+.all_title {
+    background: #008fd5;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 223px;
+    color: #fff;
+    display: block;
+    float: left;
+}
+
+.main_head {
+    margin: 0 auto;
+    width: 1190px;
+}
+
+.main_head li {
+    width: 110px;
+    text-align: center;
+    float: left;
+    margin: 0 12px;
+    line-height: 40px;
+}
+
+.main_head li:hover a {
+    color: red
+}
+
+.decontent {
+    margin: 10px 0 60px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.decontent_con {
+    width: 1190px;
+    margin: 20px auto;
+   
+}
+
+.decontent_con h2 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px; 
+}
+.decontent_con h2 span{
+    color:#999
+}
+.maindecon{
+    position: relative;
+    overflow: hidden;
+    height: 670px;
+}
+.smallimg{
+    position: relative;
+    z-index: 1;
+    width: 410px;
+    height: 432px;
+}
+.smallimg .picshow{
+    width: 410px;
+    height: 432px;
+    text-align: center;
+    vertical-align: middle;
+}
+.smallimg .picshow img{
+    width: 410px;
+    height: 410px;
+    vertical-align: middle;
+}
+.smallimg .picshow .mask{
+    width: 186px;
+    height: 186px;
+    position: absolute;
+    background-color: rgba(00, 00, 00, .3);
+    cursor: move;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.bigimg{
+    width: 400px;
+    height: 350px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 420px;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    display: none;
+    background-color: #fff;
+}
+.bigimg img{
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.picthum{
+    position: relative;
+    height: 62px;
+   
+}
+.picthum .nextgroup{
+    position: absolute;
+    left: 430px;
+    top:15px;
+    /* display: none; */
+    width: 20px;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    background-image: url(../img/yjt.png);
+   background-repeat: no-repeat;
+   background-position: 0px 0px;
+   background-size: 120%;
+}
+.picthum .pregroup{
+    position: absolute;
+    left: 430px;
+    top: 15px;
+    display: none;
+    width: 20px;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    background-image: url(../img/zjt.png);
+   background-repeat: no-repeat;
+   background-position: 0px 0px;
+   background-size: 130%;
+}
+.picthlist{
+    position: relative;
+    width: 400px;
+    height: 65px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.picthlist ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 999px;
+    overflow: hidden;
+   
+}
+.picthlist ul li{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 4px;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    margin-left: 8px;
+}
+.picthlist ul li.active{
+    border-color: #ca151d;
+}
+.picthlist ul li .picitem{
+    display: table-cell;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+.picthlist ul li .picitem img{
+    display: inline-block;
+    max-width: 60px;
+    max-height: 60px;
+    vertical-align: middle;
+}
+.information{
+    position: absolute;
+    top: 0;
+    left: 500px;
+    width: 644px;
+    height: 664px;
+    color: #666;
+}
+.infortop h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.infortop p{
+    color: #393939;
+
+}
+.inforconten{
+    position: relative;
+    width:624px;
+    height: 100px;
+    background: #f4f6fa;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+}
+.hsj{
+    width: 100%;
+    height: 40px;
+}
+.inforprice{
+    float: left;
+    font: 37px/32px Tahoma, serif;
+    color: #ca151d;
+}
+.phone_buy{
+    float: right;
+    width: 75px;
+    margin-right: 20px;
+    background-image: url(../img/angle.png);
+    background-repeat: no-repeat;
+    background-position: 60px 2px;
+}
+.hsj .buyimg{
+    width: 100px;
+    height: 100px;
+    /* background-color: #523698; */
+    position: absolute;
+    left: 535px;
+    top:38px;
+    display: none;
+}
+.hsj .buyimg .img{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+.special{
+    margin-top: 20px;
+}
+.special p{
+    float: left;
+    margin-right: 20px;
+}
+.special p:nth-child(1){
+    color: #8d8d8d;
+    margin-right: 50px;
+}
+.special p:nth-child(2){
+    height: 20px;
+    padding: 0 6px;
+    line-height: 20px;
+    color: #ea2329;
+    text-align: center;
+    border: 1px solid #ea2329;
+    background: transparent;
+}
+.special p,em{
+    color: #ca151d;
+}
+.special p img{
+    max-width: 30px;
+    max-height: 25px;
+    margin-top: 3px;
+    vertical-align: middle;
+}
+.inforbot{
+    width: 624px;
+    height: 100px;
+    border-top: 1px dashed #ccc;
+    color: #3a3a3a;
+    padding-top: 20px;
+    position: relative;
+}
+.inforbot span{
+    position: absolute;
+    font-size: 14px;
+}
+.inforbot span:nth-child(1){
+    left: 10px;
+    top: 26px;
+}
+.inforbot span:nth-child(2){
+    left: 10px;
+    top: 132px;
+}
+.inforbot span:nth-child(3){
+    left: 10px;
+    top: 184px;
+}
+.inforbot span:nth-child(4){
+    left: 10px;
+    top: 244px;
+}
+.inforbot span:nth-child(5){
+    left: 10px;
+    top: 300px;
+}
+.inforbot div{
+    padding-left: 100px;
+}
+.inforbot .inforcolor{
+    height: 105px;
+}
+.inforbot div p{
+    float: left;
+    width: 152px;
+    height: 40px;
+    overflow: hidden;
+    font-family: helvetica, sans-serif;
+    line-height: 43px;
+    color: #3a3a3a;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #cbcbcb;
+    outline: 1px solid #ffffff;
+    margin: 0 10px 10px 0;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.inforbot div p:hover{
+    border: 1px solid #ca151d;
+}
+.inforbot div p.bg{
+    border: 1px solid #ca151d;
+}
+.inforbot div p img{
+    width: 43px;
+    height: 40px;
+}
+.inforbot .infornum p{
+    position: absolute;
+    top: 286px;
+    left: 100px;
+    width: 130px;
+    height: 50px;
+}
+.inforbot .infornum p:hover{
+    border: 1px solid #cbcbcb;
+}
+.infornum p em{
+    position: absolute;
+    color:#8d8d8d
+}
+.infornum p .jh{
+   background-color: #f2f7f7;
+    top:0;
+    left: 0px;
+    height: 50px;
+    width: 25px;
+    border-right: 1px solid #ccc;
+}
+.infornum p .js{
+    background-color: #f2f7f7;
+    top:0;
+    right: 0px;
+    height: 50px;
+    width: 25px;
+    border-left: 1px solid #ccc;
+}
+.buyphone{
+    position: absolute;
+    left: 510px;
+    top:610px;
+   
+}
+.buyphone a{
+    float: left;
+    width: 224px;
+    height: 54px;
+    font-size: 16px;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 54px;
+}
+.buyphone a:nth-child(1){
+    background-color: #ca151d;
+    color: white;
+}
+.buyphone a:nth-child(2){
+   border: 1px solid #ca151d;
+    color: #ca151d;
+}
+.presentation{
+    margin: 0px auto 50px;
+    width: 1190px;
+    border: 1px solid #ccc;
+
+}
+.pretop{
+   
+    height: 250px;
+}
+.pretop .prelist{
+    position: relative;
+}
+.pretop .prelist .show{
+    position: absolute;
+    height: 60px;
+    box-shadow: 0 0 5px #ccc;
+    top:0px
+}
+.pretop .prelist .show a{
+    float: left;
+    width: 200px;
+    height: 52px;
+    padding: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.pretop .prelist a{
+    float: left;
+    width: 200px;
+    height: 52px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.pretop .prelist a.chang{
+    border-top: 2px solid #ca151d;
+    color: #ca151d;
+}
+
+.parameter{
+    height: 100px;float: left;
+}
+.parameter p{
+    float: left;
+    margin-left: 70px;
+    margin-right: 100px;
+    width: 200px;
+    line-height: 26px;
+}
+.prebot h3{
+    margin-left: 50px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.botinfor{
+    border-top: 1px solid #ccc;
+}
+.botinfor p img{
+    width: 750px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.hahas{
+    height: 50px;
+    border-top: 1px solid #ccc;
+}

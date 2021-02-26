@@ -1,5 +1,5 @@
 [{
-        "id": "li1",
+        "id": "01",
         "image_src": "https://image.ztemall.com/8ce2ef35c721c94674e5f6f91815c9b0.png",
         "text": "中兴天机 AXON 20 5G 至尊新年版",
         "desc": "5G新年，万象当潮",
@@ -7,7 +7,7 @@
         "flag":"yes"
     },
     {
-        "id": "li2",
+        "id": "02",
         "image_src": "https://image.ztemall.com/88e7f284d84dc83ec19f305e86b5134d.png",
         "text": "Blade V2021 5G 时光机",
         "desc": "专属长辈，远程控制，一键定位，极速问诊",
@@ -15,7 +15,7 @@
         "flag":"no"
     },
     {
-        "id": "li3",
+        "id": "03",
         "image_src": "https://image.ztemall.com/97f320fc118de2249f16d8a606f1f36a.png",
         "text": "ZTE/中兴 Blade V2020 5G",
         "desc": "趣拍生活 快享5G，4800万高清四摄 ，6+128GB大存储",
@@ -23,7 +23,7 @@
         "flag":"no"
     },
     {
-        "id": "li4",
+        "id": "04",
         "image_src": "https://image.ztemall.com/913f7cff0948dfcfad3cf1153876148f.jpg",
         "text": "中兴  Blade V2020 Smart",
         "desc": "大电量 大存储 大屏幕 高清四摄",
@@ -31,7 +31,7 @@
         "flag":"yes"
     },
     {
-        "id": "li5",
+        "id": "05",
         "image_src": "https://image.ztemall.com/a53309bfbb5556e2d2810272e6696505.png",
         "text": "ZTE中兴 Blade20 Pro 5G",
         "desc": "轻柔曲面 全能拍摄",
@@ -39,7 +39,7 @@
         "flag":"no"
     },
     {
-        "id": "li6",
+        "id": "06",
         "image_src": "https://image.ztemall.com/6d87b24ed21aab3c911929e3e3544e1c.png",
         "text": "中兴天机Axon 20 5G",
         "desc": "视觉进化，轻薄OLED屏 6400万四摄 屏幕下摄像头",

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="./style/resect.css">
+    <link rel="stylesheet" href="./style/regist.css">
+</head>
+
+<body>
+    <div class="logo">
+        <div class="logo_con">
+            <div class="lg_left">
+                <h1><a href="./phonelist.html">中兴商城</a></h1>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_con">
+            <h2>用 户 注 册</h2>
+            <ul class="contentip">
+                <li>
+                    <span><em>*</em>用户名</span>
+                    <div class="phone"><input type="text" placeholder="请输入用户名" class="user"></div>
+                </li>
+                <li>
+                    <span><em>*</em>设置密码</span>
+                    <div class="phone"><input type="password" placeholder="6-20个字符" class=" pass"></div>
+                    <p class="saft"><span>安全程度</span> <em>弱</em><em>中</em><em>强</em></p>
+                </li>
+                <li>
+                    <span><em>*</em>确认密码</span>
+                    <div class="phone"><input type="password" placeholder="再次填写密码" class="nextpass"></div>
+                </li>
+                <p class="ask"><input type="checkbox" class="askche">我已阅读并同意<em>《会员注册协议》</em></p>
+                <a href="./login.html" class="logins">已有账号,去登录>></a>
+                <p href="#" class="regist">立即注册</p>
+            </ul>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p><a href="#">服务协议</a><em>|</em><a href="#">隐式政策</a><em>|</em><span>©2014 - 2020 深圳市中兴智谷科技有限公司版权所有，并保留所有权利
+            </span></p>
+    </div>
+</body>
+<script src="./script/jquery-1.8.3.js"></script>
+<script>
+    var userinfo = []
+    $(".regist").on("click", function () {
+
+        if (!$(".askche").attr("checked")) {
+            alert("请勾选会员注册协议")
+        } else {
+            if (!($(".pass").val() == $(".nextpass").val())) {
+                alert("两次密码不一致")
+            } else {
+                var users = $(".user").val()
+                var passwords = $(".pass").val()
+                userinfo.push({
+                    "users": users,
+                    "passwords": passwords,
+                    "state":0
+                })
+                alert("注册成功")
+                localStorage.setItem('customer', JSON.stringify(userinfo))
+            }
+
+        }
+
+    })
+</script>
+
+</html>

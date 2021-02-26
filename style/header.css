@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 头部导航 */
+.header{
+    position: relative;
+    z-index: 100px;
+    
+}
+.header_con{
+    height: 35px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    width: 1190px;
+}
+.head_nav{
+    float: left;
+    line-height: 35px;
+}
+.head_nav a{
+    float: left;
+    margin-right: 10px;
+}
+.head_nav a:nth-child(1){
+    background-color:#008fd5;
+    color:#fff;
+    padding: 0 10px;
+}
+.login{
+    float: right;
+    position: relative;
+}
+.login a{
+    margin-left: 20px;
+    line-height: 35px;
+}
+.login a:nth-child(3){
+    margin-left: 40px;
+    margin-right: 20px;
+    position: relative;
+}
+.login a:nth-child(3)::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/angle.png);
+    width: 20px;
+    height: 20px;
+    top:2px;
+}
+.login .ewm{
+    height: 120px;
+    width: 100px;
+    background-image: url(../img/ewm.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right:0px;
+    box-shadow: 0 0 3px #ccc;
+    text-align: center;
+    z-index: 5;
+    background-color: #fff;
+    display: none;
+}
+.ewm p{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+}
+
+/* logo图 && 搜索框*/
+.logoseach{
+    height: 148px;
+    background-color: #fff;
+}
+.logoseach_con{
+    margin: 0 auto;
+    width: 1190px;
+}
+.leftlogo{
+    float: left;
+}
+.leftlogo h1 a{
+    text-indent: -9999px;
+    display: block;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 86px;
+    margin-top: 35px;
+    margin-left: -5px;
+}
+.centerseach{
+    margin-left: 80px;
+    margin-top: 55px;
+    float: left;
+}
+.search_box{
+    height: 18px;
+    width: 420px;
+    border: 1px solid #c81623;
+    border-right: none;
+    padding: 5px;
+}
+.search_btn{
+    width: 80px;
+    height: 30px;
+    background-color: #ea2329;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    border: none;
+    position: absolute;
+}
+.keyword{
+    color: #ea2329;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+}
+.keyword a{
+    margin-left: 12px;
+    color: #999999;
+    font-size: 10px;
+}
+.buycart{
+    float: left;
+    border-radius: 3px;
+    background-color: #ea2329;
+    margin-left: 260px;
+    margin-top: 55px;
+   position: relative;
+   background-image: url(../img/buycart.png);
+   background-repeat: no-repeat;
+   background-position: 15px 6px;
+}
+.buycart_link{
+    width: 110px;
+    height: 30px;
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-indent:40px;
+}
+.buy_count{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #ef5a5e;
+    background-color: #fff;
+    border-radius: 10px;
+    left: 25px;
+    top:-8px;
+    text-align: center;
+    color: #ef5a5e;
+    font-size: 10px;
+}

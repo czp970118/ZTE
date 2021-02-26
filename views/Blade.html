@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade系列</title>
+</head>
+<link rel="stylesheet" href="./style/resect.css">
+<link rel="stylesheet" href="./style/header.css">
+<link rel="stylesheet" href="./style/footer.css">
+<link rel="stylesheet" href="./style/Axon.css">
+<body style="background-color: #fff;">
+    <!-- 网页头部 -->
+    <div class="header"></div>
+    <!-- 导航 -->
+    <ul class="main_head clearfix">
+        <div class="container clearfix">
+            <a href="" class="all_title">全部商品分类</a>
+            <li><a href="./phonelist.html">首页</a></li><i></i>
+            <li><a href="./Axon.html">Axon系列</a></li>
+            <li><a href="./Blade.html">Blade系列</a></li>
+            <li><a href="">线上服务站</a></li><i></i>
+            <li><a href="">中兴社区</a></li>
+            <li><a href="">线下门店</a></li>
+            <li><a href="">会员中心</a></li>
+        </div>
+    </ul>
+    <!-- 列表页 -->
+    <div class="Axonlist">
+        <div class="Axonlist_con">
+            <h2>全部商品><span>blade</span></h2>
+            <div class="sortbar">
+               <div class="sortleft">
+                   排序:&nbsp;&nbsp;
+                   <a href="#" class="total btn">综合</a>
+                   <a href="#" class="num btn">销量</a>
+                   <a href="#" class="price btn">价格</a>
+                   <a href="#" class="times btn">上架时间</a>
+               </div>
+               <div class="sortright">
+                   <span class="quant">
+                       共<em>11</em>件商品
+                   </span>
+               </div>
+            </div>
+            <div class="goodlist">
+                <ul class="itemlist">
+                    <!-- <li>
+                        <div class="item">
+                            <div class="pic"><a href="#"><img src="https://image.ztemall.com/0544da21ed21b4070f03d5897129d861.jpg?x-oss-process=image/resize,w_640,h_640" alt=""></a>
+                            <div class="get_cart">加入购物车</div>
+                            </div>
+                            <div class="caption">
+                                <a href="#">中兴天机Axon 10 Pro 5G 版</a><br>
+                                <span class="Axprice">
+                                    ￥4999.00          
+                                    </span>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部及版权信息 -->
+    <div class="footer"></div>
+</body>
+<script src="./script/jquery-1.8.3.js"></script>
+<script src="./script/Bladelist.js"></script>
+<script src="./script/utils.js"></script>
+
+<script>
+     $(".header").load("./header.html")
+     $(".footer").load("./footer.html")
+</script>
+</html>

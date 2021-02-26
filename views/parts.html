@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="./style/resect.css">
+<link rel="stylesheet" href="./style/parts.css">
+<div class="fittlist">
+    <h1>原厂配件 <span class="cut">换一批</span></h1>
+    <div class="partcont">
+        <ul class="partlist">
+            <!-- <li class="part">
+                <div class="part_pic">
+                    <a href="#"><img src="https://image.ztemall.com/fd4276fb15b47ccce6e1395857b179eb.png?x-oss-process=image/resize,w_440,h_440" alt=""></a>
+                </div>
+                <div class="part_name">
+                    <a href="#">ZTE WATCH Live 智能手表 新年版</a>
+                </div>
+                <div class="part_pice">¥249.00</div>
+            </li> -->
+        </ul>
+        </div>
+    </div>
+</div>
+<script src="./script/utils.js"></script>
+<script src="./script/jquery-1.8.3.js"></script>
+<script>
+    var cut=document.querySelector(".cut")
+    var partlist=document.querySelector(".partlist")
+    var index=0
+    // 移动到下一页
+    cut.onclick=function(){
+        moveNext()
+    }
+    function moveNext() {
+        index++;
+        if(index>1){
+            index=0       
+        }
+        animate(partlist,{"left":-index*1190})
+    }
+    $.ajax({
+        url: "../data/partlist.json",
+        type: "get",
+        dataType: "json",
+        cache: false,
+        success: function (json) {
+            var domStr = ""
+            $.each(json, function (index, item) {
+                domStr += `
+               <li class="part" data-id=${item.id}>
+               <div class="part_pic">
+                   <a href="#"><img src="${item.image_src}" alt=""></a>
+               </div>
+               <div class="part_name">
+                   <a href="#">${item.text}</a>
+               </div>
+               <div class="part_pice">${item.price}</div>
+           </li>
+             `
+            })
+            $(".partlist").html(domStr)
+        }
+    })
+</script>

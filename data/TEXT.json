@@ -1,0 +1,197 @@
+[
+    {
+        "Axon系列": [{
+            "contenimg_src": "https://image.ztemall.com/1f3ad233dd23e52ecaa06249db4913f0.jpg",
+            "contenttext1": "中兴天机Axon20 5G",
+            "contenttext2": "屏下摄像手机"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/80e93c816ea79807c9c2e26de0dc359e.jpg",
+            "contenttext1": "天机Axon 10 Pro 5G",
+            "contenttext2": "5G先锋 唯快不破"
+        }],
+        "Blade系列": [{
+            "contenimg_src": "https://image.ztemall.com/5e212981a25bd50691f36477b706368a.jpg",
+            "contenttext1": "V2020Smart",
+            "contenttext2": "大电量 大存储 大屏幕 高清四摄"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/7faf80de8bc99abd2c1571fa8465e516.jpg",
+            "contenttext1": "V2020 5G ",
+            "contenttext2": "趣拍生活 快享5G"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/2ca09bb502d387181561e9126583826f.jpg",
+            "contenttext1": "V2021 5G 时光机",
+            "contenttext2": "专属长辈，远程控制"
+        }],
+
+        "其他": [{
+            "contenimg_src": "https://image.ztemall.com/d75046b49873f68b613f088e54ea0a8d.jpg",
+            "contenttext1": "红魔 5G",
+            "contenttext2": "5G游戏手机"
+        }]
+    },
+    {
+        "智能穿戴": [{
+            "contenimg_src": "https://image.ztemall.com/dcb3389a6da9312f2b14a0fd41fa7fd6.jpg",
+            "contenttext1": "nubia watch",
+            "contenttext2": "刚柔并济，表现不凡"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/98f54c77aff9c6abbaa4667b830caa05.jpg",
+            "contenttext1": "ZTE WATCH Live",
+            "contenttext2": "21天持久续航、全天心率监测"
+        }],"网络/路由": [{
+            "contenimg_src": "https://image.ztemall.com/fa153259978774e932314879a80435e7.jpg",
+            "contenttext1": "分布式路由",
+            "contenttext2": "穿墙王,覆盖无忧"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/17fcf9d305aad39687e89e03416eed84.jpg",
+            "contenttext1": "4G CPE",
+            "contenttext2": "4G室内无线路由器"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/17fcf9d305aad39687e89e03416eed84.jpg",
+            "contenttext1": "5G CPE",
+            "contenttext2": "X50平台、5G高速网络"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/4cab101eb11a95802b3edfba81dbad1e.jpg",
+            "contenttext1": "MF920U",
+            "contenttext2": "随身WIFI热点"
+        }],"智能家具": [{
+            "contenimg_src": "https://image.ztemall.com/8b21652d2553d6c0e8fb342c68663bbe.jpg",
+            "contenttext1": "小兴看看Memo微光全彩版",
+            "contenttext2": "穿墙王,覆盖网络无线家庭监控无忧"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/a2ef83c3e7e5773a62866dd7c55bd445.png",
+            "contenttext1": "努比亚 VR全景相机",
+            "contenttext2": " 360°全景记录生活"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/f761b255160e1002592607396a2ed89b.jpg",
+            "contenttext1": "nubia neo智能声波电动牙刷",
+            "contenttext2": "清新从齿出发"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/629aa5a16ef0ecf4a3247fd13b1648b5.jpg",
+            "contenttext1": "Nubia neo智能速干牙刷消毒器",
+            "contenttext2": "收纳 风干二合一"
+        }],"便携投影": [{
+            "contenimg_src": "https://image.ztemall.com/728108afbdd60a5ecae37bb17ff612fe.jpg",
+            "contenttext1": "ZTE中兴 Spro 2 智能微投",
+            "contenttext2": "小有所投 大有所想"
+        }],"电视盒子": [{
+            "contenimg_src": "https://image.ztemall.com/294ac29483e926188fb7f9903bc3cc27.jpg",
+            "contenttext1": "魅盒",
+            "contenttext2": "4K高清网络机顶盒"
+        }]
+
+    },
+    {
+        "耳机": [{
+            "contenimg_src": "https://image.ztemall.com/32fce6b0e7d61c167498e99261ce4213.jpg",
+            "contenttext1": "律音耳机",
+            "contenttext2": "打造不将就听觉盛宴"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/fe430198d519c68a0ff7b2e75c5e746b.png",
+            "contenttext1": "ZTE LiveBuds",
+            "contenttext2": "真无线蓝牙耳机"
+        }],  "音箱": [{
+            "contenimg_src": "https://image.ztemall.com/bc18d3e38b7b3e24959303aafeb43f8b.png",
+            "contenttext1": "红魔战鼓",
+            "contenttext2": "便携式户外防水"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/07720716474fc384943f7f56cc0e2d24.jpg",
+            "contenttext1": "蘑菇蓝牙音箱",
+            "contenttext2": "吸盘设计"
+        }]
+    },
+    {
+        "移动电源": [{
+            "contenimg_src": "https://image.ztemall.com/04820c213f597ab4a7a74eeb5993abb5.jpg",
+            "contenttext1": "努比亚 27W PD快充氘锋移动电源",
+            "contenttext2": "10000毫安充电宝"
+        }],
+        "电源适配器": [{
+            "contenimg_src": "https://image.ztemall.com/47f5b8776b8fdcd758645431114d5ca5.jpg",
+            "contenttext1": "ZTE 65W GaN(氮化镓) 超级快充",
+            "contenttext2": "小巧便携 快无止境"
+        }], "数据线": [{
+            "contenimg_src": "https://image.ztemall.com/0b8e1829c256b7d38d6b8432e16d8c45.jpg",
+            "contenttext1": "Type C-C 数据线",
+            "contenttext2": "C-C接口 5A"
+        }]
+    },
+    {
+        "保护套": [{
+            "contenimg_src": "https://image.ztemall.com/2e79316491902c601a509600f7e276e2.jpg",
+            "contenttext1": "A10 Pro智能保护套",
+            "contenttext2": "原装配件、品质保证"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/c8fb093d6755ef467c6bba91572aae9a.jpg",
+            "contenttext1": "V9 智能皮套",
+            "contenttext2": "原装配件、品质保证"
+        }],"保护壳": [{
+            "contenimg_src": "https://image.ztemall.com/618c94dece297d0536a50426a9e7ff76.jpg",
+            "contenttext1": "Axon 20 保护壳",
+            "contenttext2": "艺术家联名设计"
+        }, {
+            "contenimg_src": "https://image.ztemall.com/8b14e8a01857193e7d844d34596e8bc2.jpg",
+            "contenttext1": "Axon 10 Pro硅胶壳",
+            "contenttext2": "原装配件、品质保证"
+        }],"贴膜": [{
+            "contenimg_src": "https://image.ztemall.com/2307f69495539ea83ebb7b294002e0c9.jpg",
+            "contenttext1": "天机Axon9 Pro 钢化膜",
+            "contenttext2": ""
+        }],"存储卡": [{
+            "contenimg_src": "https://image.ztemall.com/f217f68f2ddfc90c82e7625a94e21c80.jpg",
+            "contenttext1": "T-Flash内存卡",
+            "contenttext2": ""
+        }],"自拍杆/支架": [{
+            "contenimg_src": "https://image.ztemall.com/98923b824f6432ec6b283761d279d86e.jpg",
+            "contenttext1": "中兴自拍杆",
+            "contenttext2": ""
+        }]
+    },
+    {
+        "增值服务": [{
+            "contenimg_src": "https://image.ztemall.com/ec26f7d6493badc5ccae5d5dfe7ee855.jpg",
+            "contenttext1": "碎屏保",
+            "contenttext2": "仅搭配套餐销售"
+        }], "文创产品": [{
+            "contenimg_src": "https://image.ztemall.com/f8d9c75ea5b1f2737bfe1ecf98f8e76d.png",
+            "contenttext1": "文件夹",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/75a7fc40fc86f0e566b6a2290a4b3748.png",
+            "contenttext1": "文化衫",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/5537cd4f4df52c7b5679c1815cd91298.png",
+            "contenttext1": "帆布包",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/f1f4f0ffa8632e3c5a2ceef909845659.png",
+            "contenttext1": "随行杯",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/680df493dd9724d3bbba9266ee1cae59.png",
+            "contenttext1": "积木",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/a3dd755a093b926b739d698d22914854.png",
+            "contenttext1": "帽子",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/c90f781e743680c7ca94e30c63d4710a.png",
+            "contenttext1": "笔袋",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/016b9dd744061a0450053f907f49e556.png",
+            "contenttext1": "冰箱贴",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/ab682d6a293e0170259837109b14a1b8.png",
+            "contenttext1": "玻璃杯",
+            "contenttext2": ""
+        },{
+            "contenimg_src": "https://image.ztemall.com/bb0001e875feeae05c377a2aedc135a5.png",
+            "contenttext1": "硅胶杯盖",
+            "contenttext2": ""
+        }]
+    }
+]

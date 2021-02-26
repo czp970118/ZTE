@@ -17,19 +17,6 @@ task('style',async ()=>{
   .pipe(load.rev.manifest())//生成记录哈希值的json文件
   .pipe(dest('./rev/css'))//将记录哈希值的json文件保存rev目录
 })
-
-// 编译sass
-task('sass',async ()=>{
-  src('./style/*.scss')
-  .pipe(load.sassChina())//编译sass
-  .pipe(load.rev())//给文件名添加哈希值
-  .pipe(load.minifyCss())//压缩css
-  .pipe(dest('./dist/style'))//写入到dist目录下
-  .pipe(load.rev.manifest())//生成记录哈希值的json文件
-  .pipe(dest('./rev/css'))//将记录哈希值的json文件保存rev目录
-})
-
-
 // 处理js
 task('script',async ()=>{
   src('./script/*.js')
@@ -47,7 +34,7 @@ task('script',async ()=>{
 task('image',async ()=>{
   src('./img/*.*')
   .pipe(load.imageminChangba())
-  .pipe(dest('./dist/image'))
+  .pipe(dest('./dist/img'))
 })
 
 // 处理html
@@ -61,4 +48,4 @@ task('html',async ()=>{
 })
 
 // 打包（生成环境）
-task('build',series('delDist','sass','script','image','html'))
+task('build',series('delDist','script','image','html'))

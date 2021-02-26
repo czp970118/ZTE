@@ -15,20 +15,19 @@ task('html',async ()=>{
   .pipe(load.connect.reload())
 })
 
-// 处理css
-/* task('style',async ()=>{
+// 处理data
+task('data',async ()=>{
+  src('./data/*.json')
+  .pipe(dest('./dist/data'))
+  .pipe(load.connect.reload())
+})
+
+// // 处理css
+task('style',async ()=>{
   src('./style/*.css')
   .pipe(dest('./dist/style'))
   .pipe(load.connect.reload())
-}) */
-
-// 编译sass
-task('sass',async ()=>{
-  src('./style/*.scss')
-  .pipe(load.sassChina().on('error', load.sassChina.logError))//编译sass
-  .pipe(dest('./dist/style'))
-  .pipe(load.connect.reload())
-})
+}) 
 
 // 处理js
 task('script',async ()=>{
@@ -40,7 +39,7 @@ task('script',async ()=>{
 // 处理img
 task('image',async ()=>{
   src('./img/*.*')
-  .pipe(dest('./dist/image'))
+  .pipe(dest('./dist/img'))
   .pipe(load.connect.reload())
 })
 
@@ -55,13 +54,14 @@ task('reload',async ()=>{
 // 监听文件变化
 task('watch',async ()=>{
   watch('./views/*.html',series('html'))
-  watch('./style/*.scss',series('sass'))
+  watch('./style/*.css',series('style'))
   watch('./script/*.js',series('script'))
+  watch('./data/*.json',series('data'))
   watch('./img/*.*',series('image'))
 })
 
 // 打包（开发环境）
-task('dev',series('delDist','html','sass','script','image'))
+task('dev',series('delDist','html','style','script','data','image'))
 
 // 启动项目
 task('start',series('dev','reload','watch'))

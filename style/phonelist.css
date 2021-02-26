@@ -1,27 +1,28 @@
-.phone_list{
-    margin: 0 auto;
+.phone_list, .else_list{
+    margin: 20px auto;
     width: 1190px;
-    
+    overflow: hidden;
 }
-.phone_head{
+.phone_head,.else_head{
     line-height: 32px;
     font-size: 18px;
     color: #333333;
 }
-.phone_head span{
+
+.phone_head span,.else_head span{
     font-size: 12px;
     color: #666666;
     margin-left: 12px;
 }
-.phone_left{
+.phone_left,.else_left{
     float: left;
     
 }
-.phone_right{
+.phone_right,.else_right{
     float: left;
     
 }
-.phone_right ,.right_list{
+.phone_right .right_list,.else_right .right_list{
     float: left;
     width: 900px;
 }
@@ -33,8 +34,7 @@
     margin-bottom: 12px;
     background-color: #fff;
 }
-.phone_right .right_list li a{
-    
+.phone_right .right_list li a,.else_right .right_list li a{
     position: relative;
     display: block;
     text-align: center;
@@ -76,3 +76,4 @@
     top:50px;
     border-radius: 20px 20px 20px 0;
 }
+
