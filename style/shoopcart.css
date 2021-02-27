@@ -99,7 +99,7 @@
 .shoop li .listop .unit{
     float: left;
     margin-top: 36px;
-    
+    width: 80px;
 }
 .shoop li .listop .amount{
     float: left;
@@ -118,6 +118,7 @@
     text-align: center;
     line-height: 30px;
     background-color: #f7f7f7;
+    cursor: pointer;
 }
 .shoop li .listop .amount .miu{
    float: right;
@@ -127,6 +128,7 @@
     text-align: center;
     line-height: 30px;
     background-color: #f7f7f7;
+    cursor: pointer;
 }
 .shoop li .listop .amount em{
     text-align: center;
@@ -145,6 +147,7 @@
     float: left;
     margin-top: 26px;
     margin-left: 80px;
+    cursor: pointer;
 }
 .p1{
     width: 100%;
