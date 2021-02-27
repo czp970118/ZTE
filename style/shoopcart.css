@@ -1,0 +1,190 @@
+.all_title{
+    background: #008fd5;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 223px;
+    color: #fff;
+    display: block;
+    float: left;
+}
+.main_head{
+    margin: 0 auto;
+    width: 1190px;
+}
+.main_head li {
+    width: 110px;
+    text-align: center;
+    float: left;
+    margin: 0 12px;
+    line-height: 40px;
+    
+}
+.main_head li:hover a{
+    color:red
+}
+.shoop{
+
+  background-color: #fff;
+}
+.shoop_con{
+    width: 1190px;
+    margin: 30px auto;
+}
+.shoop_head{
+    width: 1190px;
+    background-color: #eeeeee;
+    line-height: 40px;
+}
+.shoop_head input{
+    margin-left: 20px;
+}
+.shoop_head span:nth-of-type(1){
+    margin-left: 240px;
+}
+.shoop_head span:nth-of-type(2){
+    margin-left: 280px;
+}
+.shoop_head span:nth-of-type(3){
+    margin-left: 130px;
+}
+.shoop_head span:nth-of-type(4){
+    margin-left: 145px;
+}
+.shoop_head span:nth-of-type(5){
+    margin-left: 100px;
+}
+.shoop_list{
+    margin-top: 30px;
+    border: 1px solid #efefef;
+  margin-bottom: 30px;
+}
+.shoop li .listop{
+    width: 1190px;
+    border-bottom: 1px solid #efefef;
+    overflow: hidden;
+}
+.shoop li .listop input{
+    margin-left: 10px;
+    margin-top: 40px;
+    float: left;
+}
+.shoop li .listop .subsrc{
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 440px;
+    margin-right: 70px;
+}
+.shoop li .listop .subsrc img{
+    width: 35px;
+    height: 44px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+.shoop li .listop .subsrc .subtext{
+    float: left;
+    margin-left: 16px;
+
+}
+.shoop li .listop .subsrc .subtext .sp1{
+    color: #333333;
+    line-height: 20px;
+}
+.shoop li .listop .subsrc .subtext .sp2{
+    color: #666666;
+    margin-bottom: 38px;
+}
+.shoop li .listop .unit{
+    float: left;
+    margin-top: 36px;
+    
+}
+.shoop li .listop .amount{
+    float: left;
+    margin-left: 70px;
+    margin-top: 22px;
+    width: 106px;
+    height: 30px;
+    position: relative;
+    border: 1px solid #c6c6c6;
+}
+.shoop li .listop .amount .plu{
+   float: left;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #c6c6c6;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+.shoop li .listop .amount .miu{
+   float: right;
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid #c6c6c6;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+.shoop li .listop .amount em{
+    text-align: center;
+    float: left;
+    width: 44px;
+    height: 30px;
+    line-height: 30px;
+}
+.shoop li .listop .money{
+    float: left;
+    margin-top: 26px;
+    margin-left: 95px;
+    margin-bottom: 50px;
+}
+.shoop li .listop .del{
+    float: left;
+    margin-top: 26px;
+    margin-left: 80px;
+}
+.p1{
+    width: 100%;
+    float: left;
+    margin-left: 75px;
+}
+.p2{
+   float: left;
+   margin-left: 75px;
+}
+.setpay{
+    height: 1188px;
+    height: 62px;
+    border:1px solid #efefef;
+}
+.setpay .payleft{
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.setpay .paycenter{
+    float: left;
+    margin-left: 400px;
+    margin-top: 25px;
+}
+.paycenter span{
+    float: left;
+    margin-left: 40px;
+}
+.paycenter span em{
+    color: #e22335;
+    font-size: 18px;
+}
+.setpay .payright{
+    float: right;
+    width: 128px;
+    height: 64px;
+    background-color: #999999;
+    text-align: center;
+    line-height: 64px;
+    color: #ffffff;
+    font-size: 14px;
+}

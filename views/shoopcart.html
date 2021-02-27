@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./style/resect.css">
+    <link rel="stylesheet" href="./style/shoopcart.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header"></div>
+    <!-- 导航 -->
+    <ul class="main_head clearfix">
+        <div class="container clearfix">
+            <a href="" class="all_title">全部商品分类</a>
+            <li><a href="./phonelist.html">首页</a></li><i></i>
+            <li><a href="./Axon.html">Axon系列</a></li>
+            <li><a href="./Blade.html">Blade系列</a></li>
+            <li><a href="">线上服务站</a></li><i></i>
+            <li><a href="">中兴社区</a></li>
+            <li><a href="">线下门店</a></li>
+            <li><a href="">会员中心</a></li>
+        </div>
+    </ul>
+    <!-- 购物车 -->
+    <div class="shoop">
+        <div class="shoop_con">
+            <div class="shoop_head">
+                <input type="checkbox" name="" id="">全选
+                <span>商品</span>
+                <span>单价</span>
+                <span>数量</span>
+                <span>金额</span>
+                <span>操作</span>
+            </div>
+            <ul class="shoop_list">
+                <li>
+                    <div class="listop">
+                        <input type="checkbox" name="" id="">
+                        <div class="subsrc">
+                            <img src="https://image.ztemall.com/8ce2ef35c721c94674e5f6f91815c9b0.png?x-oss-process=image/resize,w_220,h_220"
+                                alt="">
+                            <div class="subtext">
+                                <p class="sp1">中兴天机 Axon 20 5G 新年至尊版 </p>
+                                <p class="sp2">颜色：烁火鎏金、版本：12GB+256GB、网络制式：5G</p>
+                            </div>
+
+                        </div>
+                        <span class="unit">￥3498.00</span>
+                        <p class="amount">
+                            <em class="plu">-</em>
+                            <em class="how">1</em>
+                            <em class="miu">+</em>
+                        </p>
+                        <p class="money">￥3498.00</p>
+                        <p class="del">删除</p>
+                        <p class="p1">【赠品】Nubia红魔战鼓蓝牙音箱*1</p>
+                        <p class="p2">【赠品】免费换屏服务 （半年期）*1</p>
+                    </div>             
+                </li>
+                <li>
+                    <div class="listop">
+                        <input type="checkbox" name="" id="">
+                        <div class="subsrc">
+                            <img src="https://image.ztemall.com/8ce2ef35c721c94674e5f6f91815c9b0.png?x-oss-process=image/resize,w_220,h_220"
+                                alt="">
+                            <div class="subtext">
+                                <p class="sp1">中兴天机 Axon 20 5G 新年至尊版 </p>
+                                <p class="sp2">颜色：烁火鎏金、版本：12GB+256GB、网络制式：5G</p>
+                            </div>
+
+                        </div>
+                        <span class="unit">￥3498.00</span>
+                        <p class="amount">
+                            <em class="plu">-</em>
+                            <em class="how">1</em>
+                            <em class="miu">+</em>
+                        </p>
+                        <p class="money">￥3498.00</p>
+                        <p class="del">删除</p>
+                        <p class="p1">【赠品】Nubia红魔战鼓蓝牙音箱*1</p>
+                        <p class="p2">【赠品】免费换屏服务 （半年期）*1</p>
+                    </div>             
+                </li>
+            </ul>
+        <div class="setpay">
+            <div class="payleft"><input type="checkbox" name="" id=""> 全选 <span class="delall">删除</span></div>
+            <div class="paycenter"><span>已选择商品 <em class="all">1</em> 件</span><span>总计(不含运费): <em >￥3498.00</em></span></div>
+            <div class="payright">去结算</div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- 底部及版权信息 -->
+    <div class="footer"></div>
+</body>
+<script src="./script/jquery-1.8.3.js"></script>
+<script src="./script/utils.js"></script>
+<script src="./script/shoopcart.js"></script>
+<script>
+    $(".header").load("./header.html")
+    $(".footer").load("./footer.html")
+</script>
+
+</html>
